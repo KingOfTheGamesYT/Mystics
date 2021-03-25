@@ -1,0 +1,28 @@
+
+modLoader="javafml" #mandatory
+loaderVersion="[36,)" #mandatory This is typically bumped every Minecraft version by Forge. See our download page for lists of versions.
+license="All rights reserved"
+issueTrackerURL="https://github.com/KingOfTheGamesYT/Mystics/issues" #optional
+[[mods]] #mandatory
+modId="mystics" #mandatory
+version="${file.jarVersion}" #mandatory
+displayName="Mystics" #mandatory
+displayURL="" #optional
+logoFile="mystics.png" #optional
+credits="Credits to Ian Somerhalder for playing Damon Salvatore. Nina Dobrev for playing Katherine Petrova and Elena Gilbert. Paul Wesley for playing Stefan Salvatore. Candice King for playing Caroline Forbes. Kat Graham for playing Bonnie Bennet. Zach Roerig for playing Matt Donovan. Steven R McQueen for playing Jeremy Gilbert. Mathew Davis for playing Alaric Saltzman. Michael Trevino for playing Tyler Lockwood. Joseph Morgan for playing Niklaus Mikaelson. Michael Malarkey for playing Enzo. Kayla Ewell for playing Vicki Donovan. Daniel Gillies for playing Elijah Mikaelson. Clair Holt for playing Rebekah Mikaelson and Julie Plec for making TVD/Originals/Legacies" #optional
+authors="RedRoseWarrior1" #optional
+description='''
+Brings the universe of TVD/Originals/Legacies to Minecraft
+'''
+[[dependencies.mystics]] #optional
+    modId="forge" #mandatory
+    mandatory=true #mandatory
+    versionRange="[36,)" #mandatory
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.mystics]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.5]"
+    ordering="NONE"
+    side="BOTH"
