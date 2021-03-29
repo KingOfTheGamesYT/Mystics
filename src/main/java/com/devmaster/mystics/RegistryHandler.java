@@ -1,6 +1,8 @@
 package com.devmaster.mystics;
 
 import com.devmaster.mystics.blocks.BlockItemBase;
+import com.devmaster.mystics.blocks.WhiteOakFence;
+import com.devmaster.mystics.blocks.WhiteOakSlab;
 import com.devmaster.mystics.blocks.WhiteOakWood;
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
@@ -23,9 +25,13 @@ public class RegistryHandler {
     //Blocks
     public static final RegistryObject<Block> WHITE_OAK_WOOD = BLOCKS.register("white_oak_wood", WhiteOakWood::new);
     public static final RegistryObject<Block> WHITE_OAK_LOG = BLOCKS.register("white_oak_log", WhiteOakWood::new);
+    public static final RegistryObject<Block> WHITE_OAK_WOOD_FENCE = BLOCKS.register("white_oak_wood_fence", WhiteOakFence::new);
+    public static final RegistryObject<Block> WHITE_OAK_WOOD_SLAB = BLOCKS.register("white_oak_wood_slab", WhiteOakSlab::new);
 
     //Block Items
     public static final RegistryObject<Item> WHITE_OAK_WOOD_ITEM = ITEMS.register("white_oak_wood", () -> new BlockItemBase(WHITE_OAK_WOOD.get()));
     public static final RegistryObject<Item> WHITE_OAK_LOG_ITEM = ITEMS.register("white_oak_log", () -> new BlockItemBase(WHITE_OAK_LOG.get()));
+    public static final RegistryObject<Item> WHITE_OAK_WOOD_FENCE_ITEM = ITEMS.register("white_oak_wood_fence", () -> new BlockItemBase(WHITE_OAK_WOOD_FENCE.get()));
+    public static final RegistryObject<Item> WHITE_OAK_WOOD_SLAB_ITEM = ITEMS.register("white_oak_wood_slab", () -> new BlockItemBase(WHITE_OAK_WOOD_SLAB.get()));
 
 }
