@@ -1,0 +1,8 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "bottom": "mystics:blocks/white_oak_wood",
+    "top": "mystics:blocks/white_oak_wood",
+    "side": "mystics:blocks/white_oak_wood"
+  }
+}

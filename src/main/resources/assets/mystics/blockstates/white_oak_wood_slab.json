@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "mystics:block/white_oak_wood_slab"
+    },
+    "type=double": {
+      "model": "mystics:block/white_oak_wood"
+    },
+    "type=top": {
+      "model": "mystics:block/white_oak_wood_slab_top"
+    }
+  }
+}
