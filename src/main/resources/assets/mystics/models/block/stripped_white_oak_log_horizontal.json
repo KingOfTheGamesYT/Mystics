@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_column_horizontal",
+  "textures": {
+    "end": "mystics:block/stripped_white_oak_log_top",
+    "side": "mystics:block/stripped_white_oak_log"
+  }
+}
