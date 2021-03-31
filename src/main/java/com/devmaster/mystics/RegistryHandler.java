@@ -26,6 +26,7 @@ public class RegistryHandler {
     public static final RegistryObject<Block> WHITE_OAK_WOOD_SLAB = BLOCKS.register("white_oak_wood_slab", WhiteOakSlab::new);
     public static final RegistryObject<Block> WHITE_OAK_WOOD_DOOR = BLOCKS.register("white_oak_wood_door", WhiteOakDoor::new);
     public static final RegistryObject<Block> STRIPPED_WHITE_OAK_LOG = BLOCKS.register("stripped_white_oak_log", WhiteOakWood::new);
+    public static final RegistryObject<Block> WHITE_OAK_PLANKS = BLOCKS.register("white_oak_planks", WhiteOakPlanks::new);
 
     //Block Items
     public static final RegistryObject<Item> WHITE_OAK_WOOD_ITEM = ITEMS.register("white_oak_wood", () -> new BlockItemBase(WHITE_OAK_WOOD.get()));
@@ -34,5 +35,6 @@ public class RegistryHandler {
     public static final RegistryObject<Item> WHITE_OAK_WOOD_SLAB_ITEM = ITEMS.register("white_oak_wood_slab", () -> new BlockItemBase(WHITE_OAK_WOOD_SLAB.get()));
     public static final RegistryObject<Item> WHITE_OAK_WOOD_SLAB_DOOR = ITEMS.register("white_oak_wood_door", () -> new BlockItemBase(WHITE_OAK_WOOD_DOOR.get()));
     public static final RegistryObject<Item> STRIPPED_WHITE_OAK_LOG_ITEM = ITEMS.register("stripped_white_oak_log",() -> new BlockItemBase(STRIPPED_WHITE_OAK_LOG.get()));
+    public static final RegistryObject<Item> WHITE_OAK_WOOD_PLANKS = ITEMS.register("white_oak_planks", () -> new WhiteOakPlanksItem(WHITE_OAK_PLANKS.get()));
 
 }

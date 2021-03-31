@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "mystics:blocks/white_oak_planks"
+  }
+}
