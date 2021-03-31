@@ -1,6 +1,8 @@
 package com.devmaster.mystics;
 
 
+import net.minecraft.item.ItemGroup;
+import net.minecraft.item.ItemStack;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
@@ -41,5 +43,11 @@ public class Mystics
     public void onServerStarting(FMLServerStartingEvent event) {
 
     }
+    public static final ItemGroup ORIGINALS = new ItemGroup("originals") {
 
+        @Override
+        public ItemStack createIcon() {
+            return new ItemStack(RegistryHandler.WHITE_OAK_WOOD.get());
+        }
+    };
 }
